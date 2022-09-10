@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,69 +8,69 @@
     <title>Sarah's Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
     <header>
-        <h1><a href="Index.html">SARAH BRODRICK</a></h1>
-        <nav>
-            <a href="Work.html">Work</a>
-            <a href="Contact.html">Contact</a>
-        </nav>
+        <div class="container">
+            <div class="wrapper">
+                <a href="index.html" class="logo_a">
+                    <img src="Images/logo.svg" alt="Sarah's Logo" class="logo">
+                </a>
+                <nav id="myNav" class="navbar">
+                    <a href="Work.html" class="menu_item">Work</a>
+                    <a href="Contact.html" class="menu_item">Contact</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section>
-        <div class="top">
-            <div class="text">
-                <h2>Designer and developer devoted to crafting beautiful web experiences focused on simplicity and purpose.</h2>
-            </div>
-        </div>
+        <h2 class="title"> Selected works.</h2>
+        <hr class="solid">
     </section>
-    
-    <section>
+
+    <section class="work-projects">
         <div class="card">
-            <img src="images/glasshead.jpeg" />
+            <h3>01 Project</h3>
+            <img src="Images/orange.png" />
             <h2 class="sub-card-heading">
         </div>
-        
-        <div class="card">
-            <img src="images/vamp.jpeg" />
-            <h2 class="sub-card-heading"></h2>
-        </div>
-        <div class="card">
-            <img src="images/beach.jpeg" />
-            <h2 class="sub-card-heading"></h2>
-        </div>
-        <div class="card">
-            <img src="images/cheker.jpeg" />
-            <h2 class="sub-card-heading"></h2>
-        </div>
-        
-        <div class="card">
-            <img src="images/chillax.jpeg" />
-            <h2 class="sub-card-heading"></h2>
-        </div>
 
         <div class="card">
-            <img src="images/lux.jpeg" />
+            <h3>02 Project</h3>
+            <img src="Images/grey.png" />
+            <h2 class="sub-card-heading"></h2>
+        </div>
+        <div class="card">
+            <h3>03 Project</h3>
+            <img src="Images/red.png" />
             <h2 class="sub-card-heading"></h2>
         </div>
     </section>
 
+    <hr class="solid">
     <footer>
-        <p>&#169; Sarah Brodrick 2022</p>
-        <a class="social-icon" href="https://www.linkedin.com/in/sarah-brodrick-540219115/" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-        </a> 
-        
-        <a class="social-icon" href="https://www.instagram.com/sj.designs__/?hl=en" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-        </a> 
-        
-        <a class="social-icon" href="Github" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-        </a> 
+        <div class="footer__copyright"> &#169; Sarah Brodrick 2022</div>
+
+        <ul class="footer__nav-social">
+            <li class="footer__nav-item"> <a class="social-icon"
+                    href="https://www.linkedin.com/in/sarah-brodrick-540219115/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="footer__nav-item"><a class="social-icon" href="https://www.instagram.com/sj.designs__/?hl=en"
+                    target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            <li class="footer__nav-item"><a class="social-icon" href="https://github.com/Sarahbrod" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a></li>
+        </ul>
+
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </footer>
-    
+        </div>
+        <footer>
+
 </body>
+
 </html>
